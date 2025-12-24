@@ -110,31 +110,23 @@ docker-compose up -d
 - [Development Guide](docs/development.md)
 - [Deployment Guide](docs/deployment.md)
 
-## 🎯 Development Roadmap
+## ✨ Current Features
 
-### Phase 1: Foundation (Weeks 1-2) ✅
-- [x] Basic RAG pipeline
-- [x] Vector database setup
-- [x] LLM integration
-- [x] Simple UI
+### Implemented ✅
+- [x] RAG pipeline with semantic search
+- [x] ChromaDB vector database
+- [x] Ollama LLM integration
+- [x] Document upload (PDF, DOCX, TXT)
+- [x] Streamlit chat interface
+- [x] Conversation memory
+- [x] Source attribution
 
-### Phase 2: Data Connectivity (Weeks 3-4) 🚧
+### In Development 🚧
 - [ ] Database connectors (PostgreSQL, MySQL, SQLite)
-- [ ] File upload (CSV, Excel)
-- [ ] API integration
-- [ ] Schema extraction
-
-### Phase 3: Intelligence (Weeks 5-6) 📅
-- [ ] Natural language to SQL
-- [ ] Complex query handling
-- [ ] Auto-analysis & insights
-- [ ] Smart visualizations
-
-### Phase 4: Production (Weeks 7-8) 📅
-- [ ] Docker containerization
-- [ ] Security & isolation
-- [ ] Performance optimization
-- [ ] Production deployment
+- [ ] Natural language to SQL generation
+- [ ] CSV/Excel file analysis
+- [ ] Auto-visualization
+- [ ] Data insights generation
 
 ## 🤝 Contributing
 
