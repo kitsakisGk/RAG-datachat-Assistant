@@ -1,0 +1,27 @@
+@echo off
+REM RAG DataChat Assistant - Windows Setup Script
+
+echo 🚀 Setting up RAG DataChat Assistant...
+echo.
+
+REM Create virtual environment
+echo 📦 Creating virtual environment...
+py -m venv venv
+
+echo.
+echo ✅ Virtual environment created!
+echo.
+echo To activate the virtual environment, run:
+echo   venv\Scripts\activate
+echo.
+echo After activation, run:
+echo   pip install -r requirements.txt
+echo.
+echo To install Ollama and pull the model:
+echo   1. Install Ollama from https://ollama.ai
+echo   2. Run: ollama pull mistral
+echo.
+echo Then start the app:
+echo   streamlit run src/ui/app.py
+echo.
+pause
