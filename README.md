@@ -80,7 +80,7 @@ RAG-datachat-Assistant/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/RAG-datachat-Assistant.git
+git clone https://github.com/kitsakisGk/RAG-datachat-Assistant.git
 cd RAG-datachat-Assistant
 
 # Create virtual environment
@@ -110,23 +110,15 @@ docker-compose up -d
 - [Development Guide](docs/development.md)
 - [Deployment Guide](docs/deployment.md)
 
-## ✨ Current Features
+## ✨ Features
 
-### Implemented ✅
-- [x] RAG pipeline with semantic search
-- [x] ChromaDB vector database
-- [x] Ollama LLM integration
-- [x] Document upload (PDF, DOCX, TXT)
-- [x] Streamlit chat interface
-- [x] Conversation memory
-- [x] Source attribution
-
-### In Development 🚧
-- [ ] Database connectors (PostgreSQL, MySQL, SQLite)
-- [ ] Natural language to SQL generation
-- [ ] CSV/Excel file analysis
-- [ ] Auto-visualization
-- [ ] Data insights generation
+- **RAG Pipeline** - Semantic search with retrieval-augmented generation
+- **Vector Database** - ChromaDB for efficient document storage and retrieval
+- **LLM Integration** - Local inference with Ollama (Mistral/Llama)
+- **Document Processing** - Support for PDF, DOCX, and TXT files
+- **Chat Interface** - Interactive Streamlit UI with conversation memory
+- **Source Attribution** - Track and display source documents for answers
+- **Privacy-First** - All data processing happens locally
 
 ## 🤝 Contributing
 
@@ -144,12 +136,10 @@ MIT License - see [LICENSE](LICENSE) for details
 
 ## 📧 Contact
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+- GitHub: [@kitsakisGk](https://github.com/kitsakisGk)
+- LinkedIn: [Georgios Kitsakis](https://www.linkedin.com/in/georgios-kitsakis-gr/)
+- Email: kitsakisgk@gmail.com
 
 ---
 
 **⭐ Star this repo if you find it helpful!**
-
-Built with ❤️ for data analysts everywhere
