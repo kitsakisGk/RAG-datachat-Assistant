@@ -128,7 +128,7 @@ def main():
                 st.session_state.rag_engine.clear_history()
                 st.session_state.chat_history = []
                 st.success("History cleared!")
-                st.rebalance()
+                st.rerun()
 
     # Main content area
     if st.session_state.rag_engine is None:
