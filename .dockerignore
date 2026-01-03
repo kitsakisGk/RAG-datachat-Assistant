@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Git
+.git/
+.gitignore
+
+# Data (will be mounted as volume)
+data/vector_store/
+logs/
+*.log
+
+# Ollama models (managed separately)
+ollama_models/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+.claude/
+nul
+
+# Documentation
+*.md
+docs/
+screenshots/
+LICENSE
+CONTRIBUTING.md
+
+# Testing
+tests/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment
+.env
+.env.local
+*.env

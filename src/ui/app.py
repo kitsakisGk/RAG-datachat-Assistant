@@ -134,10 +134,11 @@ def main():
 
             with col2:
                 if st.button("🗄️ Reset DB", use_container_width=True):
-                    # Reinitialize to clear vector store
-                    initialize_rag_engine()
+                    # Reset the vector store
+                    st.session_state.rag_engine.vector_store.reset()
+                    st.session_state.rag_engine.clear_history()
                     st.session_state.chat_history = []
-                    st.success("Database reset!")
+                    st.success("Database reset! All documents deleted.")
                     st.rerun()
 
     # Main content area
