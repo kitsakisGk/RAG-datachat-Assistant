@@ -120,6 +120,22 @@ docker-compose up -d
 - **Source Attribution** - Track and display source documents for answers
 - **Privacy-First** - All data processing happens locally
 
+## 📸 Screenshots
+
+### Main Chat Interface
+![Chat Interface](screenshots/chat-interface.png)
+*Ask questions in natural language and get AI-powered answers from your documents*
+
+### Document Upload
+![Document Upload](screenshots/document-upload.png)
+*Upload PDF, DOCX, or TXT files to your knowledge base*
+
+### Sample Q&A
+![Sample Q&A](screenshots/sample-qa.png)
+*Example: Asking about Q4 2025 sales data and getting detailed insights*
+
+> **Note**: Add your screenshots to the `screenshots/` folder and they'll appear here!
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) first.
