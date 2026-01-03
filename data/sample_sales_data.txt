@@ -1,0 +1,46 @@
+Sales Data Analysis Report - Q4 2025
+
+Executive Summary:
+Our sales team achieved record-breaking results in Q4 2025, with total revenue reaching $2.5 million,
+representing a 35% increase compared to Q3 2025. The primary drivers were strong performance in the
+Enterprise segment and successful product launches.
+
+Regional Performance:
+- North America: $1.2M (48% of total revenue)
+- Europe: $800K (32% of total revenue)
+- Asia-Pacific: $500K (20% of total revenue)
+
+Product Categories:
+1. Software Licenses: $1.5M (60% of revenue)
+2. Professional Services: $600K (24% of revenue)
+3. Support Contracts: $400K (16% of revenue)
+
+Top Performing Products:
+- DataAnalyzer Pro: $650K in sales
+- CloudSync Enterprise: $480K in sales
+- Security Suite: $370K in sales
+
+Customer Segments:
+- Enterprise (>1000 employees): 65% of revenue
+- Mid-Market (100-1000 employees): 25% of revenue
+- SMB (<100 employees): 10% of revenue
+
+Key Metrics:
+- Average Deal Size: $45,000
+- Sales Cycle: 42 days average
+- Customer Acquisition Cost: $8,500
+- Customer Lifetime Value: $125,000
+- Win Rate: 32%
+
+Top Sales Representatives:
+1. Sarah Johnson - $380K in closed deals
+2. Michael Chen - $325K in closed deals
+3. Emma Williams - $290K in closed deals
+
+Challenges and Opportunities:
+The main challenge was longer sales cycles in the Enterprise segment due to budget approval processes.
+Opportunity exists to expand in the Asia-Pacific region, which showed 45% quarter-over-quarter growth.
+
+Forecast for Q1 2026:
+Based on current pipeline ($3.2M) and historical win rates, we project $2.8M in revenue for Q1 2026,
+representing continued growth momentum.
