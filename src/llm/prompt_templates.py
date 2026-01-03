@@ -100,4 +100,4 @@ CONVERSATION_TEMPLATE = """Previous conversation:
 Retrieved context:
 {context}
 
-User: {question}
+User: {question}"""
