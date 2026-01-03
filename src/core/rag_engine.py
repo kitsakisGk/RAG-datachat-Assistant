@@ -90,9 +90,10 @@ class RAGEngine:
         }
 
         for i, distance in enumerate(results["distances"]):
-            # Convert distance to similarity (ChromaDB uses L2 distance)
-            # Lower distance = higher similarity
-            if distance <= (1 - self.similarity_threshold):
+            # ChromaDB uses L2 distance - lower is better
+            # Accept all results with distance < 2.0 (very permissive for testing)
+            # TODO: Tune this threshold based on your data
+            if distance <= 2.0:
                 filtered_results["ids"].append(results["ids"][i])
                 filtered_results["documents"].append(results["documents"][i])
                 filtered_results["distances"].append(distance)
