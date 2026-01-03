@@ -16,7 +16,7 @@ class OllamaClient:
         base_url: str = "http://localhost:11434",
         model: str = "mistral",
         temperature: float = 0.7,
-        timeout: int = 60
+        timeout: int = 180
     ):
         """
         Initialize Ollama client

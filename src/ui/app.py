@@ -124,11 +124,21 @@ def main():
             st.metric("Total Documents", stats['total_documents'])
             st.metric("Conversation Length", stats['conversation_length'])
 
-            if st.button("🗑️ Clear History", use_container_width=True):
-                st.session_state.rag_engine.clear_history()
-                st.session_state.chat_history = []
-                st.success("History cleared!")
-                st.rerun()
+            col1, col2 = st.columns(2)
+            with col1:
+                if st.button("🗑️ Clear History", use_container_width=True):
+                    st.session_state.rag_engine.clear_history()
+                    st.session_state.chat_history = []
+                    st.success("History cleared!")
+                    st.rerun()
+
+            with col2:
+                if st.button("🗄️ Reset DB", use_container_width=True):
+                    # Reinitialize to clear vector store
+                    initialize_rag_engine()
+                    st.session_state.chat_history = []
+                    st.success("Database reset!")
+                    st.rerun()
 
     # Main content area
     if st.session_state.rag_engine is None:
