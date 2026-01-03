@@ -119,3 +119,8 @@ service-account.json
 temp/
 tmp/
 *.temp
+.claude/
+nul
+
+# Ollama Models (stored locally)
+ollama_models/
