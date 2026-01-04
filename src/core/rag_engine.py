@@ -21,7 +21,7 @@ class RAGEngine:
         self,
         vector_store: Optional[VectorStore] = None,
         llm_model: str = "mistral",
-        top_k: int = 5,
+        top_k: int = 2,
         similarity_threshold: float = 0.7
     ):
         """
@@ -158,7 +158,8 @@ class RAGEngine:
             answer = self.llm_client.generate(
                 prompt=prompt,
                 system_prompt=system_prompt,
-                temperature=0.7
+                temperature=0.7,
+                max_tokens=256
             )
             return answer.strip()
         except Exception as e:

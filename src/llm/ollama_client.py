@@ -96,7 +96,8 @@ class OllamaClient:
             "prompt": prompt,
             "stream": stream,
             "options": {
-                "temperature": temperature if temperature is not None else self.temperature
+                "temperature": temperature if temperature is not None else self.temperature,
+                "num_ctx": 2048  # Limit context window for faster processing
             }
         }
 

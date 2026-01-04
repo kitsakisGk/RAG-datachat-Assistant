@@ -68,8 +68,8 @@ def initialize_rag_engine():
                 vector_store = VectorStore()
                 st.session_state.rag_engine = RAGEngine(
                     vector_store=vector_store,
-                    llm_model="mistral",
-                    top_k=5
+                    llm_model="tinyllama",
+                    top_k=2
                 )
             logger.info("RAG engine initialized successfully")
             return True

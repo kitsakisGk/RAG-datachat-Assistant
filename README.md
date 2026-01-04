@@ -37,7 +37,7 @@ User Query → Understanding Layer → Context Retrieval → Generation → Exec
 ### Tech Stack
 
 - **Vector DB**: ChromaDB (dev) → Qdrant (production)
-- **LLM**: Ollama (Mistral/Llama) + OpenAI (optional)
+- **LLM**: Ollama (TinyLlama/Mistral/Llama) + OpenAI (optional)
 - **Embeddings**: BGE-M3 / E5-Large
 - **Backend**: FastAPI
 - **Frontend**: Streamlit → Next.js
@@ -90,8 +90,8 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 
-# Install Ollama and pull model
-ollama pull mistral
+# Install Ollama and pull model (TinyLlama is fast and lightweight)
+ollama pull tinyllama
 
 # Run the application
 streamlit run src/ui/app.py
@@ -114,7 +114,7 @@ docker-compose up -d
 
 - **RAG Pipeline** - Semantic search with retrieval-augmented generation
 - **Vector Database** - ChromaDB for efficient document storage and retrieval
-- **LLM Integration** - Local inference with Ollama (Mistral/Llama)
+- **LLM Integration** - Local inference with Ollama (TinyLlama/Mistral/Llama)
 - **Document Processing** - Support for PDF, DOCX, and TXT files
 - **Chat Interface** - Interactive Streamlit UI with conversation memory
 - **Source Attribution** - Track and display source documents for answers
