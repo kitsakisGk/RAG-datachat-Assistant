@@ -105,10 +105,10 @@ docker-compose up -d
 
 ## 📚 Documentation
 
-- [Architecture Overview](docs/architecture.md)
-- [API Documentation](docs/api.md)
-- [Development Guide](docs/development.md)
-- [Deployment Guide](docs/deployment.md)
+- [Quick Start Guide](docs/QUICKSTART.md) - Get started in 5 minutes
+- [Deployment Guide](docs/DEPLOY.md) - Deploy to production with Docker
+- [Architecture Overview](docs/architecture.md) - System design and components
+- [Project Status](docs/PROJECT_STATUS.md) - Development roadmap and progress
 
 ## ✨ Features
 
