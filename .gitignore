@@ -86,6 +86,7 @@ coverage.xml
 
 # ML Models & Cache
 models/
+!src/api/models/
 *.pt
 *.pth
 *.bin
