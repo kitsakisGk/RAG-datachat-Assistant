@@ -14,6 +14,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import RedirectResponse
 from src.api.routes import chat_router, documents_router, health_router
+from src.api.routes.auth import router as auth_router
 from src.utils.logger import get_logger
 
 logger = get_logger(__name__)
@@ -37,6 +38,7 @@ app.add_middleware(
 )
 
 # Include routers
+app.include_router(auth_router)
 app.include_router(chat_router)
 app.include_router(documents_router)
 app.include_router(health_router)
