@@ -1,5 +1,10 @@
 # 🤖 RAG DataChat Assistant
 
+[![CI/CD](https://github.com/kitsakisGk/RAG-datachat-Assistant/actions/workflows/ci.yml/badge.svg)](https://github.com/kitsakisGk/RAG-datachat-Assistant/actions/workflows/ci.yml)
+[![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.109-green.svg)](https://fastapi.tiangolo.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 > "Talk to your data like you talk to a colleague"
 
 A production-ready RAG (Retrieval-Augmented Generation) system that enables natural language data analysis across databases, files, and APIs.
